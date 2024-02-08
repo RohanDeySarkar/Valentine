@@ -1,0 +1,57 @@
+.valentine {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.valentine__body {
+    display: grid;
+    place-content: center;
+    /* align-items: center; */
+    /* margin: 10px 0 0 0; */
+    flex: 0.5;
+}
+
+.valentine__body > h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 7px;
+    font-weight: 400;
+    color: rgb(255, 253, 253);
+}
+
+.valentine__footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.valentine__yes > button,
+.valentine__no > button  {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+}
+
+.valentine__yes > button > h2,
+.valentine__no > button > h2  {
+    padding: 5px;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.valentine__yes :hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+.valentine__no :hover {
+    opacity: 0;
+}

@@ -1,0 +1,6 @@
+.app {
+  background-image: url('https://magenta.github.io/lofi-player/assets/background/city-sunset.gif');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
